@@ -13,7 +13,7 @@
     
 }
 .flower{
-    color: #e41d5f;
+    color: #E55473;
 }
 
 .manu ul{
@@ -33,7 +33,7 @@
     
 }
 .manu ul li a:hover{
-    background-color: #e41d5f;
+    background-color: #E55473;
     color: white;
     padding: 3px;
     border-radius: 3px;
@@ -47,7 +47,7 @@
     margin-right: 20px;
 }
 .font-icon ul li:hover{
-    color: #e41d5f;
+    color: #E55473;
 }
 
 .navBar{
@@ -55,7 +55,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: bisque;
+    background-color: #FCEEF1;
+
     padding: 10px;
     font-family: 'Space Grotesk', sans-serif;
     
@@ -104,6 +105,94 @@
     background-color: #E55473;
     color: white;
 }
+header{
+    margin-bottom: 30px;
+}
+
+/* main section */
+
+.flower-tree{
+    background-color: rgb(138, 127, 127);
+    height: 300px;
+    width: 200px;
+    border-radius: 100px 100px 0 0;
+    margin-bottom: 10px;
+   
+}
+.pngwing5-bacground{
+    background-color: #D9EFF0;
+}
+.pngwing6-background{
+    background-color:#F1DDE7 ;
+}
+.pngwing7-bacground{
+    background-color: #E3EBDB;
+}
+
+.flower-tree-pic{
+    width: 150px;
+    margin-bottom: 0;
+}
+.tree-cart{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #282828;
+    
+}
+.Featured-Flowers{
+    width: 70%;
+    /* display: flex; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Featured-Flowers p{
+    width: 50%;
+    margin: auto;
+    padding: 20px 0;
+    color: #545454;
+}
+
+.flower-show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    
+    
+}
+.service{
+    width: 70%;
+    margin: auto;
+}
+.all-sevice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.all-sevice div{
+    width: 20%;
+    margin-right: 10px;
+}
+.all-sevice img{
+    width: 30px;
+}
+.all-sevice p{
+    font-size: 10px;
+    color: #545454;
+}
+
 
 
 
