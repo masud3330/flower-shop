@@ -8,11 +8,12 @@
     padding: 0;
     font-family: 'Space Grotesk', sans-serif;
 }
+
 .logo{
     margin-bottom: 10px;
     
 }
-.flower{
+.primary{
     color: #E55473;
 }
 
@@ -107,7 +108,9 @@
 }
 header{
     margin-bottom: 30px;
+    
 }
+
 
 /* main section */
 
@@ -193,6 +196,66 @@ hr{
     color: #545454;
 }
 
+/* Deal Section */
 
+
+
+.deal-description {
+    width: 50%;
+    margin-right:100px;
+    text-align: center;
+    
+}
+.deal-description p{
+    margin: 20px 0;
+    font-size: 12px;
+}
+.deal-section img{
+    width: 200px;
+    
+}
+.deal-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+     margin-bottom: 30px;
+    background-color: #FDF6F8;
+}
+
+/* instagram section */
+.insta-description{
+    text-align: center;
+}
+.insta-description p{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.insta-pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.insta-pic div img{
+    
+    width: 200px;
+    margin: 10px 20px;
+
+}
+
+/* Latest Deals */
+
+.Latest-Deals{
+    margin-top: 20px;
+    text-align: center;
+   
+}
 
 
