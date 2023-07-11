@@ -53,24 +53,23 @@
     justify-content: space-around;
     align-items: center;
     background-color: #FCEEF1;
-
     padding: 10px;
     font-family: 'Space Grotesk', sans-serif;
-    
 }
 /* banner css */
 .banner{
     width: 100%;
-    /* height: 300px; */
     display: flex;
     background-color: #FCEEF1;
-    justify-content: space-around;
+    justify-content: center;
+    
     align-items: center;
     /* padding: 20px; */
     background-image: url("./Flower Asset/pngwing\ 10.png");
     background-repeat: no-repeat;
     background-size: 220px;
     background-position: right bottom;
+    
 }
 
 .banner-describtion{
@@ -86,9 +85,7 @@
      margin: 15px 0;
 }
 
-
-
- .banner-picture{
+.banner-picture{
     width: 300px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -175,8 +172,6 @@ header{
     padding: 20px 0;
     color: #545454;
 }
-
-
 
 /* service */
 
@@ -269,7 +264,7 @@ header{
     width: 200px;
     border-radius: 10px;
     justify-content: space-between;
-    transition: 0.8s;
+    transition: 0.2s;
     filter: blur(1px);
 
 }
@@ -280,6 +275,7 @@ header{
 }
 
 /* colection part */
+
 .collection{
     width: 70%;
     text-align: center;
@@ -332,7 +328,44 @@ input{
     border-radius: 5px;
     margin: 20px 0;
 }
+/* testimonial section */
 
+.Testimonial{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-image: url("Flower Asset/client/background.jpg"), linear-gradient(rgba(0,0 , 0, 0.8),rgba(0, 0, 0, 0.7));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.client-info{
+    width: 200px;
+    background-color: rgb(243, 243, 245);
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: black;
+}
+.client-pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    margin-bottom: 10px;
+}
+.Testimonial-cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+/* end testimonial section */
+
+/* start footer section */
 .footer-section{
     width: 100%;
     
@@ -351,4 +384,5 @@ input{
 .copyWrite{
     color: #545454;
 }
+/* end footer section */
 
