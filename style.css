@@ -264,16 +264,9 @@ header{
     width: 200px;
     border-radius: 10px;
     justify-content: space-between;
-    transition: 0.2s;
-    filter: blur(1px);
+    
 
 }
-.insta-pic div img:hover{
-    scale: 1.1;
-    filter: blur(0);
-    box-shadow: 0 0 7px #e29d9d;
-}
-
 /* colection part */
 
 .collection{
