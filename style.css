@@ -66,6 +66,7 @@
 .banner{
     width: 100%;
     /* height: 300px; */
+    display: flex;
     background-color: #FCEEF1;
     justify-content: space-around;
     align-items: center;
@@ -74,28 +75,24 @@
 
 .banner-describtion{
     width: 50%;
-    padding: 20px 20px  20px 50px ;
+    
+    
+}
+.banner-describtion div{
+    padding: 20px;
 }
 .banner-describtion-pera{
     font-weight: 300;
-    margin: 15px 0;
+     margin: 15px 0;
 }
 
 
-.banner{
-    display: flex;
-}
 
-.picture-side{
-    padding-right: 20px;
-}
-
-.banner-picture{
-    width: 200px;
-    margin-bottom: 0px;
-    
+ .banner-picture{
+    width: 300px;
+    padding-bottom: 0px;
    
-}
+ }
 .btn-primary{
     padding: 10px;
     font-size: 17px;
@@ -114,13 +111,30 @@ header{
 
 /* main section */
 
+.flower-show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.tree-cart{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #282828;
+    
+}
+
 .flower-tree{
     background-color: rgb(138, 127, 127);
     height: 300px;
-    width: 200px;
-    border-radius: 100px 100px 0 0;
-    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 150px 150px 0 0;
    
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    
+    
 }
 .pngwing5-bacground{
     background-color: #D9EFF0;
@@ -133,18 +147,16 @@ header{
 }
 
 .flower-tree-pic{
-    width: 150px;
-    margin-bottom: 0;
-}
-.tree-cart{
-    margin-right: 10px;
-    margin-bottom: 10px;
+    width: 50%;
+    margin-top:;
+    margin-bottom: 0px;
+    padding: 30px 30px 0px 30px;
     
-    color: #282828;
-    
+
 }
+
  h4{
-   width: 70%;
+   width: 45%;
     border-bottom: 2px solid #393939;
     margin: auto;
     
@@ -168,16 +180,10 @@ header{
     color: #545454;
 }
 
-.flower-show{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-hr{
-    
-    
-}
+
+
+/* service */
+
 .service{
     width: 70%;
     margin: auto;
@@ -227,7 +233,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 40px 0;
     flex-wrap: wrap;
      margin-bottom: 30px;
     background-color: #FDF6F8;
@@ -258,7 +264,13 @@ hr{
     flex-wrap: wrap;
    justify-content: space-between;
     align-items: center;
+    filter: blur(2px);
+    transition: 0.8s;
     
+}
+.insta-pic:hover{
+    scale: 1.1;
+    filter: blur(0);
 }
 .insta-pic div img{
     
@@ -312,7 +324,10 @@ input{
     justify-content: center;
     align-items: center;
 }
-
+.footer-section p{
+    width: 70%;
+    margin: auto;
+}
 .copyWrite{
     color: #545454;
 }
