@@ -67,6 +67,10 @@
     justify-content: space-around;
     align-items: center;
     /* padding: 20px; */
+    background-image: url("./Flower Asset/pngwing\ 10.png");
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position: right bottom;
 }
 
 .banner-describtion{
