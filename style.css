@@ -1,8 +1,4 @@
 
-    
-/* font-family: 'Roboto Mono', monospace; */
-
-
 *{
     margin: 0;
     padding: 0;
@@ -296,15 +292,12 @@ header{
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    
-    
 }
 
 .colection-cart-part img{
     width: 200px;
     margin: 10px 0;
     border-radius: 5px;
-    
 }
 
 /* Latest Deals */
@@ -322,8 +315,6 @@ header{
     text-align: center;
     padding-top: 30vh;
     margin-bottom: 30px;
-
-   
 }
 .Latest-Deals p{
     font-size: 15px;
@@ -336,9 +327,6 @@ input{
     border: none;
     border-radius: 5px;
     margin: 20px 0;
-   
-    
-   
 }
 
 .footer-section{
