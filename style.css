@@ -307,7 +307,7 @@ header{
 /* Latest Deals */
 
 .Latest-Deals{
-    background-image: url('Flower asset/Rectangle\ 9.png');
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
     width: 70%;
     /* height: 50vh; */
     background-repeat: no-repeat;
